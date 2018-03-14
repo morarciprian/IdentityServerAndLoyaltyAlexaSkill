@@ -1,0 +1,19 @@
+﻿GetPoints how many points do I have
+GetPoints what't the points balance
+GetPoints for my balance
+GetPoints for may points balance
+AddToBasket to add to cart item number {Item}
+AddToBasket to pick item number {Item}
+AddToBasket yes item number {Item}
+GetItems what can I get with these
+GetItems what redeemable items do I have
+GetItems what can I get for this
+GetItems what can I get
+PurchaseBasket go ahead
+PurchaseBasket proceed
+PurchaseBasket redeem items
+PurchaseBasket checkout
+Cancel cancel
+Cancel forget it
+Cancel abort
+Cancel shut up
