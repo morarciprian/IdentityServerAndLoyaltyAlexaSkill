@@ -39,15 +39,6 @@ namespace IdentityServerHost
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
-            //services.AddIdentityServer()
-            //    .AddDeveloperSigningCredential()
-            //    .AddInMemoryIdentityResources(Config.IdentityResources)
-            //    .AddInMemoryClients(Config.Clients)
-            //    .AddInMemoryApiResources(Config.Apis)
-            //    .AddTestUsers(TestUsers.Users);
-
-
             // Dependency Injection - Register the IConfigurationRoot instance mapping to our "ConfigurationOptions" class 
             services.Configure<ConfigurationOptions>(Configuration);
             // ---  configure identity server with MONGO Repository for stores, keys, clients and scopes ---
